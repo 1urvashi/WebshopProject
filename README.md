@@ -5,10 +5,13 @@ This app is a demo API app that will give you an idea of the working of APIS in 
 ## Installation
 
 ```
-git clone https://github.com/1urvashi/mini-webshop.git 
+git clone https://github.com/1urvashi/WebshopProject.git
 composer install
 cp .env.example .env
 php artisan key:generate
+
+Change Database name on .env file 
+DB_DATABASE=api-webshop-project
 ```
 
 ### **Database setup**
